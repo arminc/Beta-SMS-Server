@@ -1,0 +1,17 @@
+VERSION 3
+- GWT edition
+
+VERSION 2.1
+- Transformed to JSP files
+- You can add a ned issue online
+
+VERSION 2.0
+- Can show all issues
+- Can show one issue
+- Can add new issue and send mail
+- Can add comment
+- Has an admin page where you can delete everything
+
+VERSION 1.0
+- Can add new feaute requests
+- Can view feature requests

@@ -1,0 +1,36 @@
+.appName {
+	padding: 10px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.indexText {
+	padding: 10px;
+	padding-bottom: 50px;
+}
+
+.issuesTable {
+	width: 100%;
+border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: separate;
+}
+
+.addNewIssueDialog {
+	padding: 5px;
+	border: 5px;
+	border-style: solid;
+	background-color: #f5f3e5;
+}
+
+
+
+.addNewIssueDialog .Caption {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}

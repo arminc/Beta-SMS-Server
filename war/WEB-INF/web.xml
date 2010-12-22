@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+                         "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	<servlet>
+		<servlet-name>AddIssueServlet</servlet-name>
+		<servlet-class>nl.coralic.beta.sms.server.servlets.AddIssueServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>getAllIssues</servlet-name>
+		<servlet-class>nl.coralic.beta.sms.server.servlets.GetAllIssuesServiceImpl</servlet-class>
+	</servlet>
+		<servlet>
+		<servlet-name>addNewIssue</servlet-name>
+		<servlet-class>nl.coralic.beta.sms.server.servlets.AddNewIssueServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddIssueServlet</servlet-name>
+		<url-pattern>/addissue</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>getAllIssues</servlet-name>
+		<url-pattern>/getAllIssues</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>getAllIssues</servlet-name>
+		<url-pattern>/beta_sms_server/getAllIssues</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>addNewIssue</servlet-name>
+		<url-pattern>/addNewIssue</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>addNewIssue</servlet-name>
+		<url-pattern>/beta_sms_server/addNewIssue</url-pattern>
+	</servlet-mapping>
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
